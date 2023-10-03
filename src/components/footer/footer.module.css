@@ -1,0 +1,19 @@
+.container {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    justify-content: space-between;
+}
+
+.socialIcon {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.icon {
+    cursor: pointer;
+    opacity: .6;
+}
