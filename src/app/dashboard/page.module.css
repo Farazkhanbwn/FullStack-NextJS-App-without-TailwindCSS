@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    gap: 10rem;
+
+}
+
+.posts {
+    flex: 1;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5rem 0;
+}
+
+.imgContainer {
+    width: 20rem;
+    height: 10rem;
+    position: relative;
+}
+
+.delete {
+    cursor: pointer;
+    color: red;
+}
+
+.img {
+    object-fit: cover;
+}
+
+.new {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.input,
+.textArea {
+    padding: 1rem;
+    background-color: transparent;
+    border: .2rem solid #bbb;
+    border-radius: .3rem;
+    color: #bbb;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.button {
+    padding: 2rem;
+    cursor: pointer;
+    background-color: #53c28b;
+    border: none;
+    border-radius: .5rem;
+    font-weight: bold;
+    color: #eee;
+}
