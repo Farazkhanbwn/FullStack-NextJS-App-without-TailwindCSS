@@ -32,7 +32,7 @@ const About = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
             voluptatem magnam eum id sapiente cupiditate consequatur rem ducimus
             suscipit eaque iste odit, animi molestiae porro officia deserunt, in
-            aliquid minima.
+            aliquid minimal.
           </p>
         </div>
         <div className={styles.item}>
