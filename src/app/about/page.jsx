@@ -26,7 +26,7 @@ const About = () => {
           <p className={styles.desc}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil cum
             ea exercitationem id ad consectetur hic suscipit commodi architecto
-            nisi tenetur rem quam nam, temporibus dolorem quit volume test.
+            nisi tenetur rem quam nam, temporibus dolorem quit volume.
             <br />
             <br />
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
