@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./page.module.css";
-import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
@@ -26,7 +25,7 @@ export async function generateMetadata({ params }) {
   };
 }
 
-const BlogPage = async ({ params }) => {
+const BlogsPage = async ({ params }) => {
   const data = await getData(params.id);
   return (
     <div className={styles.container}>
@@ -63,4 +62,4 @@ const BlogPage = async ({ params }) => {
   );
 };
 
-export default BlogPage;
+export default BlogsPage;
